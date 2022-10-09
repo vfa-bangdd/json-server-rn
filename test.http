@@ -1,0 +1,58 @@
+@baseUrl = http://localhost:3000/api
+
+# Tasks
+
+# @name getAllTasks
+GET {{baseUrl}}/tasks
+
+###
+
+# @name getTaskofDate
+GET {{baseUrl}}/tasks?datetime=09.10.2022
+
+###
+
+# @name addNewTaskNewDate
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+    "datetime": "08.10.2022",
+    "progress": 0.3,
+    "isFirstMeasurement": true,
+    "isSecondMeasurement": true,
+    "isFirstMedicationRecord": false,
+    "isSecondMedicationRecord": false,
+    "lifelogDrink": "yes",
+    "lifelogExercise": "no",
+    "lifelogEat": "neither",
+    "lifelogStress": "",
+    "lifelogSleep": "",
+    "lifelogSmoke": ""
+}
+
+###
+
+# @name updateTaskDate
+PATCH {{baseUrl}}/tasks/3
+Content-Type: application/json
+
+{
+    "datetime": "08.10.2022",
+    "progress": 0.4,
+    "isFirstMeasurement": true,
+    "isSecondMeasurement": true,
+    "isFirstMedicationRecord": false,
+    "isSecondMedicationRecord": false,
+    "lifelogDrink": "yes",
+    "lifelogExercise": "no",
+    "lifelogEat": "neither",
+    "lifelogStress": "",
+    "lifelogSleep": "",
+    "lifelogSmoke": ""
+}
+
+###
+
+# @name updateTaskDate
+DELETE {{baseUrl}}/tasks/3

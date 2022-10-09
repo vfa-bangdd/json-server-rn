@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "datetime": "08.10.2022",
+      "progress": 0,
+      "isFirstMeasurement": false,
+      "isSecondMeasurement": true,
+      "isFirstMedicationRecord": false,
+      "isSecondMedicationRecord": false,
+      "lifelogDrink": "yes",
+      "lifelogExercise": "no",
+      "lifelogEat": "neither",
+      "lifelogStress": "",
+      "lifelogSleep": "",
+      "lifelogSmoke": ""
+    },
+    {
+      "id": 2,
+      "datetime": "09.10.2022",
+      "progress": 0,
+      "isFirstMeasurement": false,
+      "isSecondMeasurement": false,
+      "isFirstMedicationRecord": false,
+      "isSecondMedicationRecord": false,
+      "lifelogDrink": "no",
+      "lifelogExercise": "",
+      "lifelogEat": "",
+      "lifelogStress": "",
+      "lifelogSleep": "",
+      "lifelogSmoke": ""
+    }
+  ]
+}
