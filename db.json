@@ -3,112 +3,112 @@
     {
       "id": 1,
       "datetime": "08.10.2022",
-      "progress": 0
-    }
-  ],
-  "measurements": [
-    {
-      "id": 1,
-      "done": true,
-      "taskId": 1
-    },
-    {
-      "id": 2,
-      "done": false,
-      "taskId": 1
-    }
-  ],
-  "medications": [
-    {
-      "id": 1,
-      "time": "20:33",
-      "done": false,
-      "taskId": 1
-    },
-    {
-      "id": 2,
-      "time": "22:33",
-      "done": true,
-      "taskId": 1
-    }
-  ],
-  "lifelogs": [
-    {
-      "id": 1,
-      "question": "question_001",
-      "answers": [
+      "progress": 0,
+      "measurements": [
         {
           "id": 1,
-          "createdAt": "2022/10/9 15:13:11",
-          "answer": "yes"
+          "done": true,
+          "taskId": 1
         },
         {
           "id": 2,
-          "createdAt": "2022/10/9 15:14:05",
-          "answer": "no"
+          "done": false,
+          "taskId": 1
         }
       ],
-      "taskId": 1
-    },
-    {
-      "id": 2,
-      "question": "question_002",
-      "answers": [
+      "medications": [
         {
           "id": 1,
-          "createdAt": "2022/10/9 15:13:11",
-          "answer": "yes"
+          "time": "20:33",
+          "done": false,
+          "taskId": 1
+        },
+        {
+          "id": 2,
+          "time": "22:33",
+          "done": true,
+          "taskId": 1
         }
       ],
-      "taskId": 1
-    },
-    {
-      "id": 3,
-      "question": "question_003",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 4,
-      "question": "question_004",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 5,
-      "question": "question_005",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 6,
-      "question": "question_006",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 7,
-      "question": "question_007",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 8,
-      "question": "question_008",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 9,
-      "question": "question_009",
-      "answers": [],
-      "taskId": 1
-    },
-    {
-      "id": 10,
-      "question": "question_010",
-      "answers": [],
-      "taskId": 1
+      "lifelogs": [
+        {
+          "id": 1,
+          "question": "question_001",
+          "answers": [
+            {
+              "id": 1,
+              "createdAt": "2022/10/9 15:13:11",
+              "answer": "yes"
+            },
+            {
+              "id": 2,
+              "createdAt": "2022/10/9 15:14:05",
+              "answer": "no"
+            }
+          ],
+          "taskId": 1
+        },
+        {
+          "id": 2,
+          "question": "question_002",
+          "answers": [
+            {
+              "id": 1,
+              "createdAt": "2022/10/9 15:13:11",
+              "answer": "yes"
+            }
+          ],
+          "taskId": 1
+        },
+        {
+          "id": 3,
+          "question": "question_003",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 4,
+          "question": "question_004",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 5,
+          "question": "question_005",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 6,
+          "question": "question_006",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 7,
+          "question": "question_007",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 8,
+          "question": "question_008",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 9,
+          "question": "question_009",
+          "answers": [],
+          "taskId": 1
+        },
+        {
+          "id": 10,
+          "question": "question_010",
+          "answers": [],
+          "taskId": 1
+        }
+      ]
     }
   ]
-}
+}  
