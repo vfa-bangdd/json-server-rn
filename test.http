@@ -17,18 +17,8 @@ POST {{baseUrl}}/tasks
 Content-Type: application/json
 
 {
-    "datetime": "08.10.2022",
-    "progress": 0.3,
-    "isFirstMeasurement": true,
-    "isSecondMeasurement": true,
-    "isFirstMedicationRecord": false,
-    "isSecondMedicationRecord": false,
-    "lifelogDrink": "yes",
-    "lifelogExercise": "no",
-    "lifelogEat": "neither",
-    "lifelogStress": "",
-    "lifelogSleep": "",
-    "lifelogSmoke": ""
+    "datetime": "09.10.2022",
+    "progress": 0.3
 }
 
 ###
@@ -38,18 +28,8 @@ PATCH {{baseUrl}}/tasks/3
 Content-Type: application/json
 
 {
-    "datetime": "08.10.2022",
-    "progress": 0.4,
-    "isFirstMeasurement": true,
-    "isSecondMeasurement": true,
-    "isFirstMedicationRecord": false,
-    "isSecondMedicationRecord": false,
-    "lifelogDrink": "yes",
-    "lifelogExercise": "no",
-    "lifelogEat": "neither",
-    "lifelogStress": "",
-    "lifelogSleep": "",
-    "lifelogSmoke": ""
+    "datetime": "10.10.2022",
+    "progress": 0.9
 }
 
 ###
