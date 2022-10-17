@@ -69,7 +69,8 @@
           "isShowed": true,
           "topic": "lifelog_005"
         }
-      ]
+      ],
+      "amountTask": "10"
     },
     {
       "id": "01234-rn",
@@ -102,7 +103,7 @@
           "id": "0",
           "question": "question_000",
           "answers": ["yes", "no", "neither"],
-          "isShowed": true,
+          "isShowed": false,
           "topic": "lifelog_000"
         },
         {
@@ -116,31 +117,32 @@
           "id": "2",
           "question": "question_002",
           "answers": ["neither"],
-          "isShowed": true,
+          "isShowed": false,
           "topic": "lifelog_002"
         },
         {
           "id": "3",
           "question": "question_003",
           "answers": [],
-          "isShowed": true,
+          "isShowed": false,
           "topic": "lifelog_003"
         },
         {
           "id": "4",
           "question": "question_004",
           "answers": ["no", "no"],
-          "isShowed": true,
+          "isShowed": false,
           "topic": "lifelog_004"
         },
         {
           "id": "5",
           "question": "question_005",
           "answers": [],
-          "isShowed": true,
+          "isShowed": false,
           "topic": "lifelog_005"
         }
-      ]
+      ],
+      "amountTask": "5"
     }
   ]
 }  
