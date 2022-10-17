@@ -1,9 +1,9 @@
 {
   "tasks": [
     {
-      "id": "0",
-      "datetime": "08.10.2022",
-      "progress": 0,
+      "id": "01234",
+      "datetime": "17.10.2022",
+      "progress": 20,
       "measurements": [
         {
           "id": "0",
