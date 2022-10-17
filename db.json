@@ -1,112 +1,73 @@
 {
   "tasks": [
     {
-      "id": 1,
+      "id": "0",
       "datetime": "08.10.2022",
       "progress": 0,
       "measurements": [
         {
-          "id": 1,
-          "done": true,
-          "taskId": 1
+          "id": "0",
+          "done": true
         },
         {
-          "id": 2,
-          "done": false,
-          "taskId": 1
+          "id": "1",
+          "done": false
         }
       ],
       "medications": [
         {
-          "id": 1,
+          "id": "0",
           "time": "20:33",
-          "done": false,
-          "taskId": 1
+          "done": false
         },
         {
-          "id": 2,
+          "id": "1",
           "time": "22:33",
-          "done": true,
-          "taskId": 1
+          "done": true
         }
       ],
       "lifelogs": [
         {
-          "id": 1,
+          "id": "0",
+          "question": "question_000",
+          "answers": ["yes", "no", "neither"],
+          "isShowed": true,
+          "topic": "lifelog_000"
+        },
+        {
+          "id": "1",
           "question": "question_001",
-          "answers": [
-            {
-              "id": 1,
-              "createdAt": "2022/10/9 15:13:11",
-              "answer": "yes"
-            },
-            {
-              "id": 2,
-              "createdAt": "2022/10/9 15:14:05",
-              "answer": "no"
-            }
-          ],
-          "taskId": 1
+          "answers": [],
+          "isShowed": true,
+          "topic": "lifelog_001"
         },
         {
-          "id": 2,
+          "id": "2",
           "question": "question_002",
-          "answers": [
-            {
-              "id": 1,
-              "createdAt": "2022/10/9 15:13:11",
-              "answer": "yes"
-            }
-          ],
-          "taskId": 1
+          "answers": ["neither"],
+          "isShowed": true,
+          "topic": "lifelog_002"
         },
         {
-          "id": 3,
+          "id": "3",
           "question": "question_003",
           "answers": [],
-          "taskId": 1
+          "isShowed": true,
+          "topic": "lifelog_003"
         },
         {
-          "id": 4,
+          "id": "4",
           "question": "question_004",
-          "answers": [],
-          "taskId": 1
+          "answers": ["no", "no"],
+          "isShowed": true,
+          "topic": "lifelog_004"
         },
         {
-          "id": 5,
+          "id": "5",
           "question": "question_005",
           "answers": [],
-          "taskId": 1
-        },
-        {
-          "id": 6,
-          "question": "question_006",
-          "answers": [],
-          "taskId": 1
-        },
-        {
-          "id": 7,
-          "question": "question_007",
-          "answers": [],
-          "taskId": 1
-        },
-        {
-          "id": 8,
-          "question": "question_008",
-          "answers": [],
-          "taskId": 1
-        },
-        {
-          "id": 9,
-          "question": "question_009",
-          "answers": [],
-          "taskId": 1
-        },
-        {
-          "id": 10,
-          "question": "question_010",
-          "answers": [],
-          "taskId": 1
+          "isShowed": true,
+          "topic": "lifelog_005"
         }
       ]
     }
