@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": "01234",
-      "datetime": "17.10.2022",
-      "progress": 20,
+      "datetime": "12.10.2022",
+      "progress": 40,
       "measurements": [
         {
           "id": "0",
@@ -12,6 +12,77 @@
         {
           "id": "1",
           "done": false
+        }
+      ],
+      "medications": [
+        {
+          "id": "0",
+          "time": "20:33",
+          "done": false
+        },
+        {
+          "id": "1",
+          "time": "22:33",
+          "done": true
+        }
+      ],
+      "lifelogs": [
+        {
+          "id": "0",
+          "question": "question_000",
+          "answers": ["yes", "no", "neither"],
+          "isShowed": true,
+          "topic": "lifelog_000"
+        },
+        {
+          "id": "1",
+          "question": "question_001",
+          "answers": [],
+          "isShowed": true,
+          "topic": "lifelog_001"
+        },
+        {
+          "id": "2",
+          "question": "question_002",
+          "answers": ["neither"],
+          "isShowed": true,
+          "topic": "lifelog_002"
+        },
+        {
+          "id": "3",
+          "question": "question_003",
+          "answers": [],
+          "isShowed": true,
+          "topic": "lifelog_003"
+        },
+        {
+          "id": "4",
+          "question": "question_004",
+          "answers": ["no", "no"],
+          "isShowed": true,
+          "topic": "lifelog_004"
+        },
+        {
+          "id": "5",
+          "question": "question_005",
+          "answers": [],
+          "isShowed": true,
+          "topic": "lifelog_005"
+        }
+      ]
+    },
+    {
+      "id": "01234",
+      "datetime": "13.10.2022",
+      "progress": 50,
+      "measurements": [
+        {
+          "id": "0",
+          "done": true
+        },
+        {
+          "id": "1",
+          "done": true
         }
       ],
       "medications": [
